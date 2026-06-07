@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/public/produtgitimg/e-come.png",
+    "image": "/produtgitimg/e-come.png",
     "title": "E-Commerce Project",
     "description": "A feature-rich e-commerce platform built with modern web technologies.",
     "tags": ["MongoDB", "Express", "React", "Node.js"],
