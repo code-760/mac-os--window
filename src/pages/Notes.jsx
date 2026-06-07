@@ -12,7 +12,7 @@ export default function Notes({ onClose }) {
   const [txtfile, settxtfile] = useState(null);
 
   const fetchtxt = async () => {
-    const res = await fetch('/public/notes.txt');
+    const res = await fetch('/notes.txt');
     const lest = await res.text();
     settxtfile(lest);
   };
