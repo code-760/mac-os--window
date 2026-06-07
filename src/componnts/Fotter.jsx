@@ -36,7 +36,7 @@ const APPS = [
   { id: "calendar", name: "Calendar", src: "/mca-icons/calendar.png" ,url: "https://calendar.google.com/" },
   { id: "linkdine", name: "Link", src: "/mca-icons/linkedin.png" ,url:"https://www.linkedin.com/in/himanshu-kumawat-465192369/" },
   { id: "pdf", name: "PDF", src: "/mca-icons/pdf.png" },
-  { id: "spotify", name: "Spotify", src: "/public/mca-icons/spotify.png" ,},
+  { id: "spotify", name: "Spotify", src: "/mca-icons/spotify.png" ,},
   
 
   { id: "terminal", name: "Terminal", src: "/mca-icons/Terminal.png" },
