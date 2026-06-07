@@ -69,7 +69,7 @@ const ContextMenu = ({ x, y }) => {
 };
 
 
-export default const Manu = () => {
+const Manu = () => {
   const [clicked, setClicked] = useState(false);
   const [points, setPoints] = useState({ x: 0, y: 0 });
 
@@ -103,3 +103,4 @@ export default const Manu = () => {
 };
 
  
+export default Manu

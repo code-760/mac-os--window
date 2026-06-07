@@ -16,7 +16,7 @@ import Cal from "./pages/cal";
 export default function App() {
   return (
     <div className="mac-window">
-      <Manu/>
+      <Manu />
       <Nav />
 
       <Fotter />
