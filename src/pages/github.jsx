@@ -1,6 +1,7 @@
 import Window from './window';
 
 import React from "react";
+import Window from "./Window";
 import "./github.scss";
 import gitdata from "../assets/github.json";
 
@@ -98,3 +99,6 @@ export const GithubCard = ({data}) => {
 //                 <i className="fa-solid fa-laptop"></i> Live Demo
 //               </a>
 //             )}
+
+        
+           
