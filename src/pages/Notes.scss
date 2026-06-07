@@ -1,0 +1,21 @@
+
+.notes-window{
+  background-color: #454444;
+  padding: .25rem;
+  font-size: 15px;
+  
+ &::-webkit-scrollbar{
+  display: none;
+ }
+  p {
+    white-space: pre-wrap;
+   
+  }
+  pre{
+     background-color: transparent !important;
+     &::-webkit-scrollbar{
+      display: none;
+     }
+
+  }
+}

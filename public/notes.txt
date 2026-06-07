@@ -1,0 +1,92 @@
+/**
+ * @file: profile.config.ts
+ * @author: Himanshu Kumawat
+ * @summary: A passionate Full-Stack MERN Developer specializing in high-fidelity interactive UI/UX and Generative AI integration.
+ */
+
+// --------------------------------------------------
+// 1. TECH STACK & CORE SKILLS
+// --------------------------------------------------
+
+const TECH_STACK = {
+  frontend: [
+    "React.js",       // 95%
+    "Next.js",        // 80% (Learning & Growing)
+    "HTML5 & CSS3",   // 100% (Pixel-Perfect Specialist)
+    "JavaScript",     // 90%
+    "TailwindCSS",    // 85%
+  ],
+  backend: [
+    "Node.js",        // 85%
+    "Express.js",     // 85%
+    "MongoDB",        // 80%
+    "Generative AI",  // 70% (Integration & App Building)
+  ],
+  design_and_tools: [
+    "Figma",          // Figma to Code Expert
+    "Git & GitHub",   // Version Control
+    "GSAP",           // 3D & Smooth Animations
+    "Postman"         // API Testing
+  ]
+};
+
+// --------------------------------------------------
+// 2. PROJECT REPO LOG (Flagship Deployments)
+// --------------------------------------------------
+
+class EngineeringPortfolio {
+  
+  /** 
+   * @project Monsta
+   * @type Flagship Full-Stack Project
+   * @focus High-End UI/UX Furniture E-Commerce Engine
+   */
+  public async MonstaEngine(): Promise<ProjectDetails> {
+    const stack = ["MongoDB", "Express.js", "React.js", "Node.js"];
+    const UI_Style = "Premium, Minimalistic & Responsive Grid";
+    const features = "Dynamic Cart Management, Secure Flow, Clean Database Architecture";
+    
+    return { stack, UI_Style, features, status: "Completed & Verified" };
+  }
+
+  /** 
+   * @project Myntra UI Clone
+   * @challenge Pixel-Perfect Execution
+   */
+  public MyntraClone(): void {
+    this.focus = "Visual Fidelity & Responsive Fluid Layouts";
+    this.achievements = [
+      "Replicated complex e-commerce design with 100% precision",
+      "Optimized pure CSS/JS for smooth hover interactions and effects"
+    ];
+  }
+
+  /** 
+   * @project Interactive Web Experiments
+   * @features 3D Effects, Neon Clocks, Custom Dynamic Animations
+   */
+  public creativeEffects(): string[] {
+    return ["Matrix Text Effect", "Neon Digital Clock", "Course Move Hover Effect", "Light Effects"];
+  }
+}
+
+// --------------------------------------------------
+// 3. EDUCATION & CREDENTIALS
+// --------------------------------------------------
+
+const education = {
+  degree: "Diploma in Computer Science",
+  institute: "Government Polytechnic College, Nagaur",
+  specialized_training: [
+    {
+      institute: "WsCube Tech",
+      course: "MERN Stack Web Development Training"
+    },
+    {
+      institute: "Sheryians Coding School",
+      cohort: "Cohort 2.0 (Full Stack Development + Generative AI)"
+    }
+  ]
+};
+
+export default new EngineeringPortfolio();

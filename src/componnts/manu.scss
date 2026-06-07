@@ -1,0 +1,104 @@
+// डेस्कटॉप बैकग्राउंड (Windows 11 जैसा फील देने के लिए)
+.desktop-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background: #1f2738b7; // Dark desktop background
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+  user-select: none;
+
+  .center-text {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+    h1 { margin-bottom: 8px; color: #fff; }
+  }
+}
+
+// पिक्सेल-परफेक्ट Windows 11 डार्क मेन्यू
+.win11-context-menu {
+  position: fixed;
+  z-index: 9999;
+  width: 260px;
+  background: rgba(32, 32, 32, 0.85); // Windows 11 Dark Acrylic Color
+  backdrop-filter: blur(25px) saturate(180%);
+  -webkit-backdrop-filter: blur(25px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px; // Windows 11 rounded corners are slightly less round than Mac
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.5), 0 2px 8px rgba(0, 0, 0, 0.3);
+  padding: 4px;
+  box-sizing: border-box;
+
+  .menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    .menu-item {
+      display: flex;
+      align-items: center;
+      padding: 8px 12px;
+      font-size: 14px;
+      color: #ffffff; // Pure white text
+      border-radius: 4px;
+      cursor: default;
+      transition: background 0.1s ease;
+
+      // होवर करने पर हल्का सा सफ़ेद/ग्रे हाइलाइट (Windows Style)
+      &:hover {
+        background: rgba(255, 255, 255, 0.07);
+      }
+
+      // लेफ्ट साइड के आइकॉन और टेक्स्ट को एक साथ रखने के लिए
+      .item-content {
+        display: flex;
+        align-items: center;
+      }
+
+      // आइकॉन सेटिंग्स
+      .icon {
+        font-size: 16px;
+        margin-right: 12px;
+        color: #e2e8f0; // Default light grey icons
+
+        // इमेज के हिसाब से स्पेसिफिक कलर्स
+        &.blue-icon {
+          color: #3b82f6; // Sort by और New के लिए लाइट ब्लू एरो/प्लस
+        }
+        &.blue-gear {
+          color: #60a5fa; 
+        }
+        &.brush-icon {
+          color: #38bdf8; // ब्रश के नीचे का शेड
+        }
+        &.terminal-icon {
+          color: #cbd5e1;
+        }
+      }
+
+      // राइट साइड का छोटा एरो (>)
+      .arrow {
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.4);
+      }
+
+      // यूटिलिटी क्लास स्पेसिंग के लिए
+      &.flex-between {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+    .show{
+        border-bottom: none !important;
+    }
+
+    // Windows 11 की बहुत ही हल्की डिवाइडर लाइन
+    .divider {
+      border: 0;
+      border-top: 1px solid rgba(255, 255, 255, 0.07);
+      margin: 4px 4px;
+    }
+  }
+}

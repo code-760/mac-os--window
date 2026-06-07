@@ -1,0 +1,157 @@
+[
+  {
+    "id": 1,
+    "image": "/public/produtgitimg/e-come.png",
+    "title": "E-Commerce Project",
+    "description": "A feature-rich e-commerce platform built with modern web technologies.",
+    "tags": ["MongoDB", "Express", "React", "Node.js"],
+    "repoLink": "https://github.com/code-760/e-com-projcat",
+    "demoLink": "https://e-com-projcat.vercel.app/"
+  },
+  {
+    "id": 2,
+  "title": "E-Commerce Dasbord",
+  "description": "Full-Stack E-Com Engine • MongoDB & React • Live Deployment Tracking Active",
+  "image": "/public/produtgitimg/desbord.jpg", 
+  "tags": ["MongoDB", "Express", "React", "Node.js"],
+    "repoLink": "https://github.com/code-760/e-com-projcat",
+    "demoLink": null
+  },
+ 
+  {
+    "id": 3,
+    "image": "/public/produtgitimg/prodctiviti.png",
+    "title": "JS Full Project",
+    "description": "A comprehensive full-stack repository dedicated to JavaScript projects.",
+    "tags": ["JavaScript", "Node.js", "Express"],
+    "repoLink": "https://github.com/code-760/js-full-projcat",
+    "demoLink": "https://js-full-projcat.vercel.app/"
+  },
+  {
+    "id": 4,
+     "image":"/public/produtgitimg/reel .png",
+    "title": "Reel Effect in JS",
+    "description": "An interactive web component creating custom UI reel effects using vanilla JavaScript.",
+    "tags": ["JavaScript", "CSS", "UI/UX"],
+    "repoLink": "https://github.com/code-760/reel-effect-in-js",
+    "demoLink": "https://code-760.github.io/reel-effect-in-js/"
+  },
+  {
+    "id": 5,
+    "image": "/public/produtgitimg/dounlode.png",
+    "title": "Downloader Application",
+    "description": "A handy web utility tool designed for grabbing or downloading files seamlessly.",
+    "tags": ["JavaScript", "HTML", "API"],
+    "repoLink": "https://github.com/code-760/Downloader",
+    "demoLink": null
+  },
+  {
+    "id": 6,
+    "image": "/public/produtgitimg/khariba.png",
+    "title": "KadriBazar",
+    "description": "An online web platform or marketplace application.",
+    "tags": ["React", "CSS", "Node.js"],
+    "repoLink": "https://github.com/code-760/KadriBazar",
+    "demoLink": null
+  },
+  {
+    "id": 7,
+    "image": "/public/produtgitimg/cal.png",
+    "title": "Calculator",
+    "description": "A neat, functional web calculator handling arithmetic operations with an interactive UI.",
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "repoLink": "https://github.com/code-760/calculeter",
+    "demoLink": null
+  },
+  {
+    "id": 8,
+    "image": "/public/produtgitimg/movi.png",
+    "title": "movie app",
+    "description": "A creative, animated digital greeting page for birthday celebrations.",
+    "tags": ["HTML", "CSS", "JavaScript", "GSAP"],
+    "repoLink": "https://github.com/code-760/HAPPY-BIRTHDAY",
+    "demoLink": null
+  },
+  {
+    "id": 9,
+    "image": "/public/produtgitimg/todu-with-react .png",
+    "title": "Todo in React",
+    "description": "A classic task-management application leveraging React's state management.",
+    "tags": ["React.js", "CSS", "JavaScript"],
+    "repoLink": "https://github.com/code-760/todu-in-react",
+    "demoLink": null
+  },
+  {
+    "id": 10,
+    "image": "/public/produtgitimg/light-effect.png",
+    "title": "Light Effect",
+    "description": "A visually dynamic project featuring advanced interactive CSS or JS lighting effects.",
+    "tags": ["CSS", "JavaScript", "UI-Effects"],
+    "repoLink": "https://github.com/code-760/light-effct",
+    "demoLink": null
+  },
+  {
+    "id": 11,
+    "image": "/public/produtgitimg/mixin.png",
+    "title": "Matrix Text Effect",
+    "description": "A hacker-style digital rain animation effect utilizing HTML5 Canvas.",
+    "tags": ["HTML5 Canvas", "JavaScript", "CSS"],
+    "repoLink": "https://github.com/code-760/e-com-projcat",
+    "demoLink": "https://code-760.github.io/mertix-text-efacet/"
+  },
+  {
+    "id": 12,
+    "image": "/public/produtgitimg/card.png",
+    "title": "Follow Unfollow Effect",
+    "description": "An interactive social UI animation mimicking follow and unfollow transitions.",
+    "tags": ["JavaScript", "CSS", "DOM-Manipulation"],
+    "repoLink": "https://github.com/code-760/follow-unfollow-efacat",
+    "demoLink": null
+  },
+  {
+    "id": 13,
+    "image": "/public/produtgitimg/hover.png",
+    "title": "Course Move Effect",
+    "description": "A creative UI animation featuring hover or directional card shifting mechanics.",
+    "tags": ["CSS-Grid", "JavaScript", "Animation"],
+    "repoLink": "https://github.com/code-760/coure-move-efacat",
+    "demoLink": null
+  },
+  {
+    "id": 14,
+    "image": "/public/produtgitimg/semart-city.png",
+    "title": "SmartCity Mohali Plots",
+    "description": "A dedicated real estate web portal showcasing plots and property layouts.",
+    "tags": ["HTML", "CSS", "Bootstrap"],
+    "repoLink": "https://github.com/code-760/smartcitymohaliplots",
+    "demoLink": "https://code-760.github.io/smartcitymohaliplots/"
+  },
+  {
+    "id": 15,
+    "image": "/public/produtgitimg/meta.png",
+    "title": "Meta Newsroom Clone",
+    "description": "A clean, modern frontend clone mirroring the official Meta Newsroom design layout.",
+    "tags": ["HTML", "CSS", "Responsive-Design"],
+    "repoLink": "https://github.com/code-760/meta-Newsroom",
+    "demoLink": null
+  },
+  {
+    "id": 16,
+    "image": "/public/produtgitimg/mintra.png",
+    "title": "Myntra Clone",
+    "description": "A pixel-perfect frontend replica of the Myntra e-commerce landing page interface.",
+    "tags": ["HTML", "CSS", "JavaScript", "Flexbox"],
+    "repoLink": "https://github.com/code-760/myntra-clone",
+    "demoLink": null
+  },
+  {
+    "id": 17,
+    "image": "/public/produtgitimg/clock.png",
+    "title": "Neon Digital Clock",
+    "description": "A glowing digital clock built with customized CSS neon text shadows and dynamic JS time tracking.",
+    "tags": ["HTML", "CSS-Neon", "JavaScript"],
+    "repoLink": "https://github.com/code-760/Neon-Digital-Clock",
+    "demoLink": null
+  }
+ 
+]

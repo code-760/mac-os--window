@@ -1,0 +1,73 @@
+.windos::-webkit-scrollbar{
+  display: none;
+}
+
+.windos {
+  width: 40rem;
+  height: 30rem;
+  background-color: #fff;
+  background-color: #454444;
+  border-radius: 7px;
+  overflow: hidden;
+
+  .nav-window {
+    width: 100%;
+    height: 4%;
+    background: #000;
+    border-radius: 7px 7px 0px 0px;
+    display: flex;
+    align-items: center;
+    .icon-window {
+      display: flex;
+      align-items: center;
+      padding-inline: 5px;
+      gap: 0.25rem;
+      .red {
+        width: 10px;
+        height: 10px;
+        background-color: #b92525f6;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+      .yellow {
+        width: 10px;
+        height: 10px;
+        background-color: #fff53df6;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+      .green {
+        width: 10px;
+        height: 10px;
+        background-color: #4af541f6;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+    }
+    .window-name {
+      color: #525252;
+      padding-left: 1rem;
+      font-family:
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        "Open Sans",
+        "Helvetica Neue",
+        sans-serif;
+      font-size: small;
+    }
+  }
+  .window-content {
+
+
+    
+    &::-webkit-scrollbar{
+      display: none;
+    }
+  }
+}
