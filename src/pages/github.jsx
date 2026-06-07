@@ -1,14 +1,17 @@
+import Window from './window';
+
 import React from "react";
-import Window from "./Window";
 import "./github.scss";
 import gitdata from "../assets/github.json";
-import { div } from "framer-motion/client";
+
 
 export default function Github({ onClose }) {
   return (
     <Window onClose={onClose}>
       <div className="git-main">
-        {gitdata.map((projcet, key) => {
+   {gitdata.map((projcet, key) => {
+     
+          
           return (
             <div key={key}>
               <GithubCard data={projcet} />
@@ -20,7 +23,7 @@ export default function Github({ onClose }) {
   );
 }
 
-export const GithubCard = ({ data }) => {
+export const GithubCard = ({data}) => {
   console.log(data);
 
   let { demoLink, description, image, repoLink, tags, title, id } = data;
@@ -64,7 +67,7 @@ export const GithubCard = ({ data }) => {
                 className="btn btn-primary"
                 target="_blank"
                 rel="noreferrer"
-               
+
               >
                 <i className="fa-solid fa-laptop"></i> Live Demo
               </a>:null
@@ -77,7 +80,7 @@ export const GithubCard = ({ data }) => {
             >
               <i className="fa-brands fa-github"></i> Source Code
             </a>
-            
+
           </div>
         </div>
       </div>
@@ -90,11 +93,8 @@ export const GithubCard = ({ data }) => {
 //                 className="btn btn-primary"
 //                 target="_blank"
 //                 rel="noreferrer"
-               
+
 //               >
 //                 <i className="fa-solid fa-laptop"></i> Live Demo
 //               </a>
 //             )}
-
-        
-           
