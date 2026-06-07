@@ -1,5 +1,5 @@
 import React from "react";
-import Window from "./Window";
+import window from "./window";
 import "./github.scss";
 import gitdata from "../assets/github.json";
 import { div } from "framer-motion/client";
