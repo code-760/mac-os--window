@@ -7,7 +7,7 @@ export default function Pdf({ onClose }) {
     <Window onClose={onClose}>
       <div className="pdf-window">
         <iframe
-          src="/public/Himanshu_Kumawat_Resume.pdf"
+          src="/Himanshu_Kumawat_Resume.pdf"
           title="Resume PDF"
           width="100%"
           height="100%"
