@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import './manu.scss'; // SCSS फाइल को इम्पोर्ट करना न भूलें
+import './manu.scss'; 
 
-// 1. कस्टम कॉन्टेक्स्ट मेन्यू कंपोनेंट (इसी फाइल में)
+
 const ContextMenu = ({ x, y }) => {
   return (
     <div
@@ -68,8 +68,8 @@ const ContextMenu = ({ x, y }) => {
   );
 };
 
-// 2. मुख्य App / Home कंपोनेंट
-const Manu = () => {
+
+export default const Manu = () => {
   const [clicked, setClicked] = useState(false);
   const [points, setPoints] = useState({ x: 0, y: 0 });
 
@@ -102,4 +102,4 @@ const Manu = () => {
   );
 };
 
-export default Manu;
+ 
