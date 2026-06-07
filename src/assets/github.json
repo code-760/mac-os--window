@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/public/produtgitimg/e-come.png",
+    "image": "/produtgitimg/e-come.png",
     "title": "E-Commerce Project",
     "description": "A feature-rich e-commerce platform built with modern web technologies.",
     "tags": ["MongoDB", "Express", "React", "Node.js"],
@@ -12,7 +12,7 @@
     "id": 2,
   "title": "E-Commerce Dasbord",
   "description": "Full-Stack E-Com Engine • MongoDB & React • Live Deployment Tracking Active",
-  "image": "/public/produtgitimg/desbord.jpg", 
+  "image": "/produtgitimg/desbord.jpg", 
   "tags": ["MongoDB", "Express", "React", "Node.js"],
     "repoLink": "https://github.com/code-760/e-com-projcat",
     "demoLink": null
@@ -20,7 +20,7 @@
  
   {
     "id": 3,
-    "image": "/public/produtgitimg/prodctiviti.png",
+    "image": "/produtgitimg/prodctiviti.png",
     "title": "JS Full Project",
     "description": "A comprehensive full-stack repository dedicated to JavaScript projects.",
     "tags": ["JavaScript", "Node.js", "Express"],
@@ -29,7 +29,7 @@
   },
   {
     "id": 4,
-     "image":"/public/produtgitimg/reel .png",
+     "image":"/produtgitimg/reel .png",
     "title": "Reel Effect in JS",
     "description": "An interactive web component creating custom UI reel effects using vanilla JavaScript.",
     "tags": ["JavaScript", "CSS", "UI/UX"],
@@ -38,7 +38,7 @@
   },
   {
     "id": 5,
-    "image": "/public/produtgitimg/dounlode.png",
+    "image": "/produtgitimg/dounlode.png",
     "title": "Downloader Application",
     "description": "A handy web utility tool designed for grabbing or downloading files seamlessly.",
     "tags": ["JavaScript", "HTML", "API"],
@@ -47,7 +47,7 @@
   },
   {
     "id": 6,
-    "image": "/public/produtgitimg/khariba.png",
+    "image": "/produtgitimg/khariba.png",
     "title": "KadriBazar",
     "description": "An online web platform or marketplace application.",
     "tags": ["React", "CSS", "Node.js"],
@@ -56,7 +56,7 @@
   },
   {
     "id": 7,
-    "image": "/public/produtgitimg/cal.png",
+    "image": "/produtgitimg/cal.png",
     "title": "Calculator",
     "description": "A neat, functional web calculator handling arithmetic operations with an interactive UI.",
     "tags": ["HTML", "CSS", "JavaScript"],
@@ -65,7 +65,7 @@
   },
   {
     "id": 8,
-    "image": "/public/produtgitimg/movi.png",
+    "image": "/produtgitimg/movi.png",
     "title": "movie app",
     "description": "A creative, animated digital greeting page for birthday celebrations.",
     "tags": ["HTML", "CSS", "JavaScript", "GSAP"],
@@ -74,7 +74,7 @@
   },
   {
     "id": 9,
-    "image": "/public/produtgitimg/todu-with-react .png",
+    "image": "/produtgitimg/todu-with-react .png",
     "title": "Todo in React",
     "description": "A classic task-management application leveraging React's state management.",
     "tags": ["React.js", "CSS", "JavaScript"],
@@ -83,7 +83,7 @@
   },
   {
     "id": 10,
-    "image": "/public/produtgitimg/light-effect.png",
+    "image": "/produtgitimg/light-effect.png",
     "title": "Light Effect",
     "description": "A visually dynamic project featuring advanced interactive CSS or JS lighting effects.",
     "tags": ["CSS", "JavaScript", "UI-Effects"],
@@ -92,7 +92,7 @@
   },
   {
     "id": 11,
-    "image": "/public/produtgitimg/mixin.png",
+    "image": "/produtgitimg/mixin.png",
     "title": "Matrix Text Effect",
     "description": "A hacker-style digital rain animation effect utilizing HTML5 Canvas.",
     "tags": ["HTML5 Canvas", "JavaScript", "CSS"],
@@ -101,7 +101,7 @@
   },
   {
     "id": 12,
-    "image": "/public/produtgitimg/card.png",
+    "image": "/produtgitimg/card.png",
     "title": "Follow Unfollow Effect",
     "description": "An interactive social UI animation mimicking follow and unfollow transitions.",
     "tags": ["JavaScript", "CSS", "DOM-Manipulation"],
@@ -110,7 +110,7 @@
   },
   {
     "id": 13,
-    "image": "/public/produtgitimg/hover.png",
+    "image": "/produtgitimg/hover.png",
     "title": "Course Move Effect",
     "description": "A creative UI animation featuring hover or directional card shifting mechanics.",
     "tags": ["CSS-Grid", "JavaScript", "Animation"],
@@ -119,7 +119,7 @@
   },
   {
     "id": 14,
-    "image": "/public/produtgitimg/semart-city.png",
+    "image": "/produtgitimg/semart-city.png",
     "title": "SmartCity Mohali Plots",
     "description": "A dedicated real estate web portal showcasing plots and property layouts.",
     "tags": ["HTML", "CSS", "Bootstrap"],
@@ -128,7 +128,7 @@
   },
   {
     "id": 15,
-    "image": "/public/produtgitimg/meta.png",
+    "image": "/produtgitimg/meta.png",
     "title": "Meta Newsroom Clone",
     "description": "A clean, modern frontend clone mirroring the official Meta Newsroom design layout.",
     "tags": ["HTML", "CSS", "Responsive-Design"],
@@ -137,7 +137,7 @@
   },
   {
     "id": 16,
-    "image": "/public/produtgitimg/mintra.png",
+    "image": "/produtgitimg/mintra.png",
     "title": "Myntra Clone",
     "description": "A pixel-perfect frontend replica of the Myntra e-commerce landing page interface.",
     "tags": ["HTML", "CSS", "JavaScript", "Flexbox"],
@@ -146,7 +146,7 @@
   },
   {
     "id": 17,
-    "image": "/public/produtgitimg/clock.png",
+    "image": "/produtgitimg/clock.png",
     "title": "Neon Digital Clock",
     "description": "A glowing digital clock built with customized CSS neon text shadows and dynamic JS time tracking.",
     "tags": ["HTML", "CSS-Neon", "JavaScript"],

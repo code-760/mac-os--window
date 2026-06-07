@@ -1,18 +1,16 @@
+import React, { useState } from 'react';
 import Window from './window';
-
-import React from "react";
-import window from "./window";
-import "./github.scss";
-import gitdata from "../assets/github.json";
-
+import './github.scss';
+import gitdata from '../assets/github.json';
 
 export default function Github({ onClose }) {
+  // Local JSON data ko seedhe yahan pass kar diya taaki infinite loop na bane
+  const [data, setdata] = useState(gitdata);
+
   return (
     <Window onClose={onClose}>
       <div className="git-main">
-   {gitdata.map((projcet, key) => {
-     
-          
+        {data.map((projcet, key) => {
           return (
             <div key={key}>
               <GithubCard data={projcet} />
@@ -24,22 +22,18 @@ export default function Github({ onClose }) {
   );
 }
 
-export const GithubCard = ({data}) => {
-  console.log(data);
-
-  let { demoLink, description, image, repoLink, tags, title, id } = data;
+export const GithubCard = ({ data }) => {
+  let { demoLink, description, image, repoLink, tags, title } = data;
   return (
     <div className="github-wrapper">
       <div className="card-container">
-        {/* प्रीमियम प्रोजेक्ट कार्ड */}
         <div className="project-card">
           {/* 1. इमेज सेक्शन */}
           <div className="card-image">
             <img src={image} alt={title} />
             <div className="image-overlay">
               <span>
-                View Project{" "}
-                <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                View Project <i className="fa-solid fa-arrow-up-right-from-square"></i>
               </span>
             </div>
           </div>
@@ -59,46 +53,20 @@ export const GithubCard = ({data}) => {
             ))}
           </div>
 
+          {/* 4. एक्शंस सेक्शन */}
           <div className="card-actions">
-            {/* अगर demoLink होगा, तभी यह बटन रेंडर होगा */}
-
-            {
-              demoLink?<a
-                href={demoLink}
-                className="btn btn-primary"
-                target="_blank"
-                rel="noreferrer"
-
-              >
+            {demoLink ? (
+              <a href={demoLink} className="btn btn-primary" target="_blank" rel="noreferrer">
                 <i className="fa-solid fa-laptop"></i> Live Demo
-              </a>:null
-            }
-             <a
-              href={repoLink}
-              className="btn btn-secondary"
-              target="_blank"
-              rel="noreferrer"
-            >
+              </a>
+            ) : null}
+
+            <a href={repoLink} className="btn btn-secondary" target="_blank" rel="noreferrer">
               <i className="fa-brands fa-github"></i> Source Code
             </a>
-
           </div>
         </div>
       </div>
     </div>
   );
 };
-// {demoLink && (
-//               <a
-//                 href={demoLink}
-//                 className="btn btn-primary"
-//                 target="_blank"
-//                 rel="noreferrer"
-
-//               >
-//                 <i className="fa-solid fa-laptop"></i> Live Demo
-//               </a>
-//             )}
-
-        
-           
